@@ -238,7 +238,7 @@ def board(function_to_use=None):
                                            font=('normal', 40, 'bold'), bd=10, relief='sunken')
             buttons_grid[i][j].grid(row=i+1, column=j)
 
-            copied_grid[i][j] = tk.Button(game_board, text='')
+            copied_grid[i][j] = tk.Button(game_board, text='') # Will generate a second grid to do some tests on it.
 
     resexit_font = ('Arial', 11, 'bold')
 
